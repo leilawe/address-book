@@ -13,7 +13,7 @@ def view_contacts():
 
 
 def add_contact():
-   # with open("address_book.csv", "w"):
+   with open("address_book.csv", "w"):
     print("add a new contact ")
     name= input("name: ")
     phone= input("phone: ")  
